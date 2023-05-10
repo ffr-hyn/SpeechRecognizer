@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C93DDD812A07A48300F8BDC7 /* SpeechRecognizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93DDD802A07A48300F8BDC7 /* SpeechRecognizerApp.swift */; };
-		C93DDD832A07A48300F8BDC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93DDD822A07A48300F8BDC7 /* ContentView.swift */; };
+		C93DDD832A07A48300F8BDC7 /* RecognizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93DDD822A07A48300F8BDC7 /* RecognizerView.swift */; };
 		C93DDD852A07A48600F8BDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93DDD842A07A48600F8BDC7 /* Assets.xcassets */; };
 		C93DDD882A07A48600F8BDC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93DDD872A07A48600F8BDC7 /* Preview Assets.xcassets */; };
 		C93DDD922A07A48600F8BDC7 /* SpeechRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93DDD912A07A48600F8BDC7 /* SpeechRecognizerTests.swift */; };
 		C93DDD9C2A07A48600F8BDC7 /* SpeechRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93DDD9B2A07A48600F8BDC7 /* SpeechRecognizerUITests.swift */; };
 		C93DDD9E2A07A48600F8BDC7 /* SpeechRecognizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93DDD9D2A07A48600F8BDC7 /* SpeechRecognizerUITestsLaunchTests.swift */; };
+		C93DDDAB2A07AF5600F8BDC7 /* RecognizerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93DDDAA2A07AF5600F8BDC7 /* RecognizerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		C93DDD7D2A07A48300F8BDC7 /* SpeechRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93DDD802A07A48300F8BDC7 /* SpeechRecognizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerApp.swift; sourceTree = "<group>"; };
-		C93DDD822A07A48300F8BDC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C93DDD822A07A48300F8BDC7 /* RecognizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizerView.swift; sourceTree = "<group>"; };
 		C93DDD842A07A48600F8BDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93DDD872A07A48600F8BDC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C93DDD8D2A07A48600F8BDC7 /* SpeechRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		C93DDD972A07A48600F8BDC7 /* SpeechRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93DDD9B2A07A48600F8BDC7 /* SpeechRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerUITests.swift; sourceTree = "<group>"; };
 		C93DDD9D2A07A48600F8BDC7 /* SpeechRecognizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C93DDDAA2A07AF5600F8BDC7 /* RecognizerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				C93DDD802A07A48300F8BDC7 /* SpeechRecognizerApp.swift */,
-				C93DDD822A07A48300F8BDC7 /* ContentView.swift */,
+				C93DDD822A07A48300F8BDC7 /* RecognizerView.swift */,
+				C93DDDAA2A07AF5600F8BDC7 /* RecognizerViewModel.swift */,
 				C93DDD842A07A48600F8BDC7 /* Assets.xcassets */,
 				C93DDD862A07A48600F8BDC7 /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C93DDD832A07A48300F8BDC7 /* ContentView.swift in Sources */,
+				C93DDD832A07A48300F8BDC7 /* RecognizerView.swift in Sources */,
+				C93DDDAB2A07AF5600F8BDC7 /* RecognizerViewModel.swift in Sources */,
 				C93DDD812A07A48300F8BDC7 /* SpeechRecognizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,8 @@
 				DEVELOPMENT_TEAM = 96MNY962H4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "文字起こしするためマイクにアクセスします";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "文字起こしするため音声認識にアクセスします";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +457,8 @@
 				DEVELOPMENT_TEAM = 96MNY962H4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "文字起こしするためマイクにアクセスします";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "文字起こしするため音声認識にアクセスします";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
