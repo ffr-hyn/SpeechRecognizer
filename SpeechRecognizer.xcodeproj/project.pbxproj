@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91D50DC2A655B07005EDC2F /* ChatGPTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D50DB2A655B07005EDC2F /* ChatGPTManager.swift */; };
 		C93DDD812A07A48300F8BDC7 /* SpeechRecognizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93DDD802A07A48300F8BDC7 /* SpeechRecognizerApp.swift */; };
 		C93DDD832A07A48300F8BDC7 /* RecognizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93DDD822A07A48300F8BDC7 /* RecognizerView.swift */; };
 		C93DDD852A07A48600F8BDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93DDD842A07A48600F8BDC7 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C91D50DB2A655B07005EDC2F /* ChatGPTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTManager.swift; sourceTree = "<group>"; };
 		C93DDD7D2A07A48300F8BDC7 /* SpeechRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93DDD802A07A48300F8BDC7 /* SpeechRecognizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerApp.swift; sourceTree = "<group>"; };
 		C93DDD822A07A48300F8BDC7 /* RecognizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizerView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				C93DDD802A07A48300F8BDC7 /* SpeechRecognizerApp.swift */,
 				C93DDD822A07A48300F8BDC7 /* RecognizerView.swift */,
 				C93DDDAA2A07AF5600F8BDC7 /* RecognizerViewModel.swift */,
+				C91D50DB2A655B07005EDC2F /* ChatGPTManager.swift */,
 				C93DDD842A07A48600F8BDC7 /* Assets.xcassets */,
 				C93DDD862A07A48600F8BDC7 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93DDD832A07A48300F8BDC7 /* RecognizerView.swift in Sources */,
+				C91D50DC2A655B07005EDC2F /* ChatGPTManager.swift in Sources */,
 				C93DDDAB2A07AF5600F8BDC7 /* RecognizerViewModel.swift in Sources */,
 				C93DDD812A07A48300F8BDC7 /* SpeechRecognizerApp.swift in Sources */,
 			);
@@ -433,6 +437,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +469,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

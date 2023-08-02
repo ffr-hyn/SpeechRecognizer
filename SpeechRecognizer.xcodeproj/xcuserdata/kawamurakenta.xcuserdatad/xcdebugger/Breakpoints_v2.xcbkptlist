@@ -49,6 +49,21 @@
                   endingLineNumber = "162"
                   offsetFromSymbolStart = "28">
                </Location>
+               <Location
+                  uuid = "357B0D08-DF87-474A-815F-3213094331FA - 3e942fbb3200ee5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeechRecognizer.RecognizerViewModel.speechRecognitionTask(_: __C.SFSpeechRecognitionTask, didFinishRecognition: __C.SFSpeechRecognitionResult) -&gt; ()"
+                  moduleName = "SpeechRecognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawamurakenta/work/SpeechRecognizer/SpeechRecognizer/RecognizerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "28">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -95,6 +110,21 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "150"
                   endingLineNumber = "150"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "0FDC5EAE-0FF4-4824-B06A-D10CCA1BFD2B - c6fc6edbb5cf5b2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeechRecognizer.RecognizerViewModel.speechRecognitionTaskFinishedReadingAudio(__C.SFSpeechRecognitionTask) -&gt; ()"
+                  moduleName = "SpeechRecognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawamurakenta/work/SpeechRecognizer/SpeechRecognizer/RecognizerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
                   offsetFromSymbolStart = "32">
                </Location>
             </Locations>
@@ -145,6 +175,21 @@
                   endingLineNumber = "166"
                   offsetFromSymbolStart = "48">
                </Location>
+               <Location
+                  uuid = "CE17C822-A275-4A3D-A996-C8C4BC1AEC54 - 408e23b30541e5b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeechRecognizer.RecognizerViewModel.speechRecognitionTask(_: __C.SFSpeechRecognitionTask, didFinishSuccessfully: Swift.Bool) -&gt; ()"
+                  moduleName = "SpeechRecognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawamurakenta/work/SpeechRecognizer/SpeechRecognizer/RecognizerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "48">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -193,83 +238,20 @@
                   endingLineNumber = "155"
                   offsetFromSymbolStart = "56">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "060EA015-9B2D-4816-A580-F1111354ACC9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SpeechRecognizer/RecognizerViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "startRecognition()"
-            landmarkType = "7">
-            <Locations>
                <Location
-                  uuid = "060EA015-9B2D-4816-A580-F1111354ACC9 - 22ec1b9587f5ad4a"
+                  uuid = "C90E65C3-3EFC-40DE-B586-98529CC049D0 - 13db80fd2b4f6ecb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SpeechRecognizer.RecognizerViewModel.startRecognition() -&gt; ()"
+                  symbolName = "SpeechRecognizer.RecognizerViewModel.speechRecognitionTask(_: __C.SFSpeechRecognitionTask, didHypothesizeTranscription: __C.SFTranscription) -&gt; ()"
                   moduleName = "SpeechRecognizer"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kawamurakenta/work/SpeechRecognizer/SpeechRecognizer/RecognizerViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "1864">
-               </Location>
-               <Location
-                  uuid = "060EA015-9B2D-4816-A580-F1111354ACC9 - 909505b940e01dde"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 @Swift.MainActor @Sendable () async -&gt; () in SpeechRecognizer.RecognizerViewModel.startRecognition() -&gt; ()"
-                  moduleName = "SpeechRecognizer"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kawamurakenta/work/SpeechRecognizer/SpeechRecognizer/RecognizerViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "72">
-               </Location>
-               <Location
-                  uuid = "060EA015-9B2D-4816-A580-F1111354ACC9 - 43cc5957cf4c0702"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #2 @Swift.MainActor @Sendable () async -&gt; () in SpeechRecognizer.RecognizerViewModel.startRecognition() -&gt; ()"
-                  moduleName = "SpeechRecognizer"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kawamurakenta/work/SpeechRecognizer/SpeechRecognizer/RecognizerViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "28">
-               </Location>
-               <Location
-                  uuid = "060EA015-9B2D-4816-A580-F1111354ACC9 - 22ec1b9587f5ad4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeechRecognizer.RecognizerViewModel.startRecognition() -&gt; ()"
-                  moduleName = "SpeechRecognizer"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kawamurakenta/work/SpeechRecognizer/SpeechRecognizer/RecognizerViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "1708">
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "56">
                </Location>
             </Locations>
          </BreakpointContent>

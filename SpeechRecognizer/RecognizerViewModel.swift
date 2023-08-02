@@ -11,7 +11,7 @@ import AVFoundation
 import Combine
 
 final class RecognizerViewModel: NSObject, ObservableObject {
-    @Published var speechResult = ""
+    @Published var displayText = ""
     @Published var isRecognizing = false
     @Published var errorAlertFlag = false
 
@@ -116,7 +116,7 @@ final class RecognizerViewModel: NSObject, ObservableObject {
             // 音声取得スタート
             try audioEngin?.start()
             Task { @MainActor in
-                speechResult = ""
+                displayText = ""
                 isRecognizing = true
             }
         } catch {
@@ -153,7 +153,7 @@ extension RecognizerViewModel: SFSpeechRecognitionTaskDelegate, SFSpeechRecogniz
 
     func speechRecognitionTask(_ task: SFSpeechRecognitionTask, didHypothesizeTranscription transcription: SFTranscription) {
         // 中間結果を受け取る
-        speechResult = transcription.formattedString
+        displayText = transcription.formattedString
     }
 
     func speechRecognitionTask(_ task: SFSpeechRecognitionTask, didFinishRecognition recognitionResult: SFSpeechRecognitionResult) {
