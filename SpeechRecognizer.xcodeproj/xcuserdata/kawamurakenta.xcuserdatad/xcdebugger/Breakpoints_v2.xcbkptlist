@@ -256,5 +256,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A4F3C80-CBFF-42EC-B140-AC938E379D40"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechRecognizer/ChatGPTManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "requestTransform(type:text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A4F3C80-CBFF-42EC-B140-AC938E379D40 - 74af0d0c1578c550"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SpeechRecognizer.ChatGPTManager.requestTransform(type: SpeechRecognizer.ChatGPTManager.TransformType, text: Swift.String) async throws -&gt; Swift.String"
+                  moduleName = "SpeechRecognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawamurakenta/work/SpeechRecognizer/SpeechRecognizer/ChatGPTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  uuid = "4A4F3C80-CBFF-42EC-B140-AC938E379D40 - 74af0d0c1578c550"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SpeechRecognizer.ChatGPTManager.requestTransform(type: SpeechRecognizer.ChatGPTManager.TransformType, text: Swift.String) async throws -&gt; Swift.String"
+                  moduleName = "SpeechRecognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawamurakenta/work/SpeechRecognizer/SpeechRecognizer/ChatGPTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1028">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

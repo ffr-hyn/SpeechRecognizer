@@ -8,11 +8,12 @@
 import Foundation
 import SwiftUI
 
+struct OpenIAKey {
+    let apiKey = "hogehoge"
+    let orgKey = "haguhagu"
+}
+
 final class ChatGPTManager {
-    struct OpenIAKey {
-        let apiKey = "hogehoge"
-        let orgKey = "haguhagu"
-    }
     enum TransformType: CaseIterable {
         case honorific
         case casual
@@ -42,16 +43,14 @@ final class ChatGPTManager {
     }
 
     static let shared = ChatGPTManager()
-    private let apiKey = "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"
-    private let orgKey = "org-tqmCOoThQnP1Org88EUJdMM0"
-
+    let openAIKey = OpenIAKey()
 
     func requestTransform(type: TransformType, text: String) async throws -> String {
         let url = URL(string: "https://api.openai.com/v1/chat/completions")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
-        request.allHTTPHeaderFields = ["Authorization" : "Bearer \(apiKey)"
-                                       ,"OpenAI-Organization": orgKey
+        request.allHTTPHeaderFields = ["Authorization" : "Bearer \(openAIKey.apiKey)"
+                                       ,"OpenAI-Organization": openAIKey.orgKey
                                        ,"Content-Type" : "application/json"]
         let messages = [ChatGPTParam.ChatGPTMassage(role: "system", content: type.instruction),
                         ChatGPTParam.ChatGPTMassage(role: "user", content: text)]
