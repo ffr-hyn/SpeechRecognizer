@@ -10,8 +10,8 @@ import SwiftUI
 
 final class ChatGPTManager {
     struct OpenIAKey {
-        let apiKey = "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"
-        let orgKey = "org-tqmCOoThQnP1Org88EUJdMM0"
+        let apiKey = "hogehoge"
+        let orgKey = "haguhagu"
     }
     enum TransformType: CaseIterable {
         case honorific
@@ -42,8 +42,8 @@ final class ChatGPTManager {
     }
 
     static let shared = ChatGPTManager()
-    private let apiKey = "hogehoge"
-    private let orgKey = "haguhagu"
+    private let apiKey = "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"
+    private let orgKey = "org-tqmCOoThQnP1Org88EUJdMM0"
 
 
     func requestTransform(type: TransformType, text: String) async throws -> String {
